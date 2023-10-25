@@ -7,7 +7,7 @@ import {
     SheetTrigger,
   } from "@/components/ui/sheet"
 import { Button } from "./ui/button"
-import { AlignLeft, Store } from "lucide-react"
+import { AlignLeft, BookText, Contact, Store } from "lucide-react"
 import Home from "@/app/page"
   
 function MobileNav() {
@@ -33,10 +33,13 @@ function MobileNav() {
             <h1>Biobazar</h1>
             </li>
             <li className="flex space-x-2 items-center">
-            <Store />
-            <h1>Biobazar</h1>
+            <BookText />
+            <h1>Despre</h1>
             </li>
-        <li>Contact</li>
+            <li className="flex space-x-2 items-center">
+            <Contact />
+            <h1>Despre</h1>
+            </li>
       </ul>
 
       <div>
