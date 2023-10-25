@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "./ui/button";
 
 function Navbar() {
   return (
@@ -13,7 +14,7 @@ function Navbar() {
 
       <div>
         <Button>Înregistrează-te ca producător</Button>
-        <Button>Autentificare</Button>
+        <Button variant="outline">Autentificare</Button>
       </div>
     </nav>
   )
