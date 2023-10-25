@@ -30,4 +30,49 @@ export const categories = [
     icon: <ChefHat />,
     bgColor: "purple",
   },
+  {
+    title: "Legume",
+    icon: <Carrot />,
+    bgColor: "orange",
+  },
+  {
+    title: "Fructe",
+    icon: <Apple />,
+    bgColor: "red",
+  },
+  {
+    title: "Carne",
+    icon: <Beef />,
+    bgColor: "rose",
+  },
+  {
+    title: "Ducleață",
+    icon: <ChefHat />,
+    bgColor: "purple",
+  },
+  {
+    title: "Legume",
+    icon: <Carrot />,
+    bgColor: "orange",
+  },
+  {
+    title: "Fructe",
+    icon: <Apple />,
+    bgColor: "red",
+  },
+  {
+    title: "Ducleață",
+    icon: <ChefHat />,
+    bgColor: "purple",
+  },
+  {
+    title: "Legume",
+    icon: <Carrot />,
+    bgColor: "orange",
+  },
+  {
+    title: "Fructe",
+    icon: <Apple />,
+    bgColor: "red",
+  },
 ];

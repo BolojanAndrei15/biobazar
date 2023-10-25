@@ -6,7 +6,7 @@ import { categories } from "@/categories";
 
 function HeroSection() {
   return (
-    <section className="pt-24 bg-white">
+    <section className="pt-24 pb-24 bg-white ">
       <div className="px-8 mx-auto max-w-7xl">
         <div className="w-full mx-auto text-center md:w-11/12 xl:w-9/12 ">
           <h1 className="mb-8 text-3xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">

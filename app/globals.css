@@ -74,3 +74,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+
+.about{
+  background-image: url("https://www.aprozarulvirtual.ro/upload/images/homepage/despre_aprozarul_virtual.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.call{
+  background-image:  
+                    url("https://img.freepik.com/free-vector/vegetables-fruit-background_23-2148485147.jpg?w=1380&t=st=1698166560~exp=1698167160~hmac=9c4a8a5b1d535f2cb2e0ff7b0d9b9ffa0b6b84611e3d41b38dafe84c320496b8");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
