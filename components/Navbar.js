@@ -4,7 +4,7 @@ import MobileNav from "./MobileNav";
 
 function Navbar() {
   return (
-    <nav className="flex p-2 justify-between fixed top-0 left-0 border-b-2 border-b-slate-50">
+    <nav className="flex p-4 mx-6 justify-between w-full fixed top-0 left-0 border-b-2 border-b-slate-50">
       <h1>Biobazar</h1>
       <ul className="md:flex space-x-3 hidden ">
         <li>Acasă</li>
