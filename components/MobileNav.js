@@ -41,9 +41,9 @@ function MobileNav() {
             </li>
       </ul>
 
-      <div className="flex space-x-2 text-sm">
-        <Button>Înregistrează-te ca producător</Button>
-        <Button variant="outline">Autentificare</Button>
+      <div className="flex space-x-3">
+        <Button className="text-sm">Înregistrează-te ca producător</Button>
+        <Button className="text-sm" variant="outline">Autentificare</Button>
       </div>
 
       </div>
