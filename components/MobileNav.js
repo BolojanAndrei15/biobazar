@@ -1,13 +1,12 @@
 import {
     Sheet,
     SheetContent,
-
     SheetHeader,
     SheetTitle,
     SheetTrigger,
   } from "@/components/ui/sheet"
 import { Button } from "./ui/button"
-import { AlignLeft, BookText, Contact, Store } from "lucide-react"
+import { AlignCenter, AlignLeft, BookText, Contact, Store } from "lucide-react"
 import Home from "@/app/page"
   
 function MobileNav() {
@@ -15,7 +14,7 @@ function MobileNav() {
   <Sheet>
     <SheetTrigger>
         <Button variant="outline" className="w-6 h-6 flex justify-center items-center">
-            <AlignLeft />
+            <AlignCenter />
         </Button>
     </SheetTrigger>
     <SheetContent>
@@ -42,7 +41,7 @@ function MobileNav() {
             </li>
       </ul>
 
-      <div>
+      <div className="flex space-x-2 text-sm">
         <Button>Înregistrează-te ca producător</Button>
         <Button variant="outline">Autentificare</Button>
       </div>
