@@ -9,10 +9,11 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { categories } from "@/categories";
+import { useState } from "react";
 
 
 function Categorie() {
-  const [position, setPosition] = React.useState("ascending")
+  const [position, setPosition] = useState("ascending")
   return (
     <div className="flex">
       <div className="mx-20">
