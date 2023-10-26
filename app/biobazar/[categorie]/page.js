@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { categories } from "@/categories";
 import { useState } from "react";
+import { Button } from "@/components/ui/button";
 
 
 function Categorie() {
