@@ -1,17 +1,18 @@
+"use client"
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
+
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { categories } from "@/categories";
 
 
 function Categorie() {
+  const [position, setPosition] = React.useState("ascending")
   return (
     <div className="flex">
       <div className="mx-20">
