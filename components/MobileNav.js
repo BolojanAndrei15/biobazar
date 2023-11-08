@@ -6,22 +6,17 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Button } from "./ui/button";
-import { AlignCenter, AlignLeft, BookText, Contact, Store } from "lucide-react";
+import { AlignLeft, AlignRight, BookText, Contact, Store } from "lucide-react";
 import Home from "@/app/page";
 
 function MobileNav() {
   return (
     <Sheet>
       <SheetTrigger>
-        <Button
-          variant="outline"
-          className="w-6 h-6 flex justify-center items-center"
-        >
-          <AlignCenter />
-        </Button>
+        <AlignRight />
       </SheetTrigger>
       <SheetContent>
-        <SheetHeader>
+        <SheetHeader className="mt-20">
           <SheetTitle>Biobazar</SheetTitle>
         </SheetHeader>
         <div className="flex flex-col justify-around items-center h-full">
