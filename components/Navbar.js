@@ -21,10 +21,8 @@ function Navbar() {
       <div className="flex md:hidden">
         <MobileNav />
       </div>
-
-   
     </nav>
-  )
+  );
 }
 
 export default Navbar;
